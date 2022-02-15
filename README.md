@@ -5,10 +5,20 @@
 ## THIS IS A NEW, BLANK REPO THAT IS NOT READY FOR USE YET.  PLEASE CHECK BACK SOON!
 
 ## Introduction
-MISSING
+
+A simple nginx helloworld application that helps you learn docker image pulls. Runs on port :80
 
 ## Getting Started
-MISSING
+
+To pull this image:
+```
+docker pull karthequian/helloworld:latest
+```
+
+To run this image:
+```
+docker run -p 80:80/tcp "karthequian/helloworld:latest"
+```
 
 ### Prerequisites
 MISSING
@@ -17,7 +27,8 @@ MISSING
 MISSING
 
 ## URLs
-* Nothing at this time
+* Dockerhub link: https://hub.docker.com/r/karthequian/helloworld/
+* Github link: https://github.com/karthequian/docker-helloworld
 
 ## Contributing
 This project is open source.  Please submit your contributions by forking this repository and submitting a pull request!  Oracle appreciates any contributions that are made by the open source community.
